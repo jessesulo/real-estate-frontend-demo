@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import 'tailwindcss';
+
+@theme {
+  --font-display: "Poppins", sans-serif;
+  --header-height: 4.375rem;
+  --container-padding: 0.625rem;
+}
+
+html {
+  font-family: var(--font-display);
+  letter-spacing: 0.0275em;
+  color: var(--color-neutral-600);
+}
